@@ -1,6 +1,4 @@
-# Pixel Store — Loja Virtual React
-
-Projeto acadêmico desenvolvido com React e Vite.
+# Pixel Store — Loja Virtual 
 
 ## Executar
 
@@ -28,33 +26,3 @@ npm run build
 - **App**: integra os componentes e controla o carrinho com `useState`.
 
 O carrinho é uma demonstração local, sem checkout ou processamento de pagamentos.
-
-## Publicar no GitHub
-
-Crie um repositório vazio chamado `pixel-store` em https://github.com/new e execute:
-
-```bash
-git init
-git add .
-git commit -m "Projeto Pixel Store em React"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/pixel-store.git
-git push -u origin main
-```
-
-Substitua `SEU-USUARIO` pelo seu usuário do GitHub.
-
-## Hospedar na Vercel
-
-1. Entre em https://vercel.com/new.
-2. Importe o repositório `pixel-store` do GitHub.
-3. Selecione **Vite** como framework (normalmente detectado automaticamente).
-4. Build command: `npm run build`; output directory: `dist`.
-5. Clique em **Deploy** e copie a URL fornecida.
-
-## Entrega
-
-- GitHub: adicionar link do repositório publicado.
-- Print: `print-tela-inicial.png` (incluído no ZIP).
-- Componentes: descritos neste README.
-- Vercel: adicionar link após deploy.
